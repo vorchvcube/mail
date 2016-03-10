@@ -53,6 +53,13 @@ body {
 	margin-bottom: 80px;
 }
 
+.product-button {
+	margin: 15px 0 0;
+	font-size: 12px;
+	background-color: #7A695A;
+	padding: 9px 38px;
+}
+
 .email-tizers-wrap {
 	background-color: #F1F1F2;
 	border-bottom: 5px solid #D5D5D5;
@@ -88,10 +95,25 @@ body {
 	width: 250px;
 	display: inline-block;
 	padding: 0 20px;
+	border-bottom: 1px solid #D5D5D5;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .mail-price {
 	color: #040506;
 	margin-top: 10px;
 	font-size: 16px;
+	margin-top: 15px;
+}
+
+.email-footer {
+	background-color: #ECECEC;
+	padding: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #a1a1a1;
+	a {
+		color: #a1a1a1;
+	}
 }

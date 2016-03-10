@@ -69,6 +69,14 @@ body {
 }
 
 /* line 56, ../sass/style.scss */
+.product-button {
+  margin: 15px 0 0;
+  font-size: 12px;
+  background-color: #7A695A;
+  padding: 9px 38px;
+}
+
+/* line 63, ../sass/style.scss */
 .email-tizers-wrap {
   background-color: #F1F1F2;
   border-bottom: 5px solid #D5D5D5;
@@ -76,7 +84,7 @@ body {
   padding: 34px 0 0;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .email-tizer-item {
   display: inline-block;
   width: 150px;
@@ -85,7 +93,7 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .email-sale-text {
   display: inline-block;
   margin: 45px 0;
@@ -97,21 +105,38 @@ body {
   line-height: 24px;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .mail-product-wrap img {
   width: 100%;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .mail-products-item {
   width: 250px;
   display: inline-block;
   padding: 0 20px;
+  border-bottom: 1px solid #D5D5D5;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .mail-price {
   color: #040506;
   margin-top: 10px;
   font-size: 16px;
+  margin-top: 15px;
+}
+
+/* line 110, ../sass/style.scss */
+.email-footer {
+  background-color: #ECECEC;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #a1a1a1;
+}
+/* line 116, ../sass/style.scss */
+.email-footer a {
+  color: #a1a1a1;
 }
